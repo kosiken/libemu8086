@@ -159,6 +159,8 @@ void do_assembly(struct emu8086 *aCPU, char *fname);
 void sfrread(struct emu8086 *aCPU, int aRegister);
 void sfrwrite(struct emu8086 *aCPU, int aRegister);
 
+// Special function registers
+
 #define AX aCPU->mSFR[REG_AX]
 #define BX aCPU->mSFR[REG_BX]
 #define CX aCPU->mSFR[REG_CX]
